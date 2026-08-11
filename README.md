@@ -1,4 +1,3 @@
-# EscolaDeCyber
 # Relatório – Desafio “Sintaxe Alternativa”
 
 **Disciplina:** Escola de Cyber  
