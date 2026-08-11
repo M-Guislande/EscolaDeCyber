@@ -31,7 +31,7 @@ O modelo de resposta exigido era `FLAG{...}`. Ao abrir o arquivo fornecido, obse
 
 ### Tela do desafio
 
-![Tela do desafio](imagens/desafio.png)
+![Tela do desafio](imagens/Desafio2.png)
 
 ---
 
@@ -70,11 +70,11 @@ A técnica de empacotamento em camadas exige que o processo de decodificação s
 
 ### Entrada de dados no CyberChef
 
-![Entrada no CyberChef](imagens/entrada.png)
+![Entrada no CyberChef](imagens/Entrada.png)
 
 ### Receita aplicada e resultado final
 
-![Resultado final](imagens/resultado.png)
+![Resultado final](imagens/Resultado2.png)
 
 ---
 
