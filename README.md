@@ -28,13 +28,7 @@ O desafio apresentava um texto formado por símbolos como `+`, `-`, `<`, `>`, `[
 
 ### Tela do desafio
 
-**[INSERIR IMAGEM 1 – Tela do desafio “Sintaxe Alternativa”]**
-
-Exemplo:
-
-```md
 ![Tela do desafio](imagens/desafio.png)
-```
 
 ---
 
@@ -44,7 +38,7 @@ O código foi copiado para a ferramenta **Cipher Identifier** do site dCode. A a
 
 ### Resultado da identificação
 
-**[INSERIR IMAGEM 2 – dCode identificando Brainfuck]**
+![Identificação Brainfuck](imagens/identificacao.png)
 
 ---
 
@@ -78,9 +72,7 @@ FLAG{c0d1g0_3s0t3r1c0}
 
 ### Execução no interpretador
 
-**[INSERIR IMAGEM 3 – Brainfuck Interpreter com a saída da flag]**
-
----
+![Execução Brainfuck](imagens/execucao.png)
 
 ## 7. Análise Técnica
 
@@ -134,21 +126,3 @@ A atividade permitiu compreender como linguagens esotéricas podem ser utilizada
 - Documentação da Escola de Cyber
 
 ---
-
-## Estrutura sugerida no GitHub
-
-```text
-atividade-brainfuck/
-│
-├── README.md
-└── imagens/
-    ├── desafio.png
-    ├── identificacao.png
-    └── execucao.png
-```
-
-Após salvar as imagens na pasta `imagens`, substitua os marcadores `[INSERIR IMAGEM X]` pelos links em Markdown:
-
-```md
-![Descrição](imagens/nome_da_imagem.png)
-```
