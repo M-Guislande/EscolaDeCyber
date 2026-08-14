@@ -2,7 +2,8 @@
 
 Repositório contendo resoluções (*writeups*) de desafios realizados na **Escola de Cyber**. Cada desafio possui um relatório em Markdown descrevendo o processo de análise, as ferramentas utilizadas, as evidências de execução e o resultado obtido.
 
-**Autor:** Murilo Soares Guislande
+**Autor:** Murilo Soares Guislande 
+
 **Curso:** Engenharia de Computação – Inatel
 
 ---
