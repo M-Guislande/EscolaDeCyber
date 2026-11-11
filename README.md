@@ -18,7 +18,7 @@ Repositório contendo resoluções (*writeups*) de desafios realizados na **Esco
 │   ├── Acesso_exclusivo.md
 │   ├── Cebola_Criptográfica.md
 │   └── Sintaxe_Alternativa.md
-└── desafios_ctf/
+└── Desafio2/
     ├── imagens/
     ├── relatorio_crackme_gen.md
     ├── relatorio_nice_netcat.md
@@ -39,12 +39,12 @@ Cada pasta de desafios possui a sua própria pasta `imagens/`, que contém as ca
 | Acesso Exclusivo | Criptografia | XOR com chave recuperada por texto conhecido | `desafios` |
 | Cebola Criptográfica | Codificação | Decodificação em camadas | `desafios` |
 | Sintaxe Alternativa | Linguagens esotéricas | Interpretação de Brainfuck | `desafios` |
-| Crackme | Engenharia Reversa | Reaproveitamento de função ROT47 | `desafios_ctf` |
-| Nice netcat | General Skills | Conexão com `netcat` e ASCII decimal | `desafios_ctf` |
-| information | Forense | Metadados com Base64 | `desafios_ctf` |
-| substitution0 | Criptografia | Substituição monoalfabética com chave | `desafios_ctf` |
-| Cookies | Web Exploitation | Manipulação de cookie | `desafios_ctf` |
-| So Meta | Forense | Leitura de metadados EXIF | `desafios_ctf` |
+| Crackme | Engenharia Reversa | Reaproveitamento de função ROT47 | `Desafio2` |
+| Nice netcat | General Skills | Conexão com `netcat` e ASCII decimal | `Desafio2` |
+| information | Forense | Metadados com Base64 | `Desafio2` |
+| substitution0 | Criptografia | Substituição monoalfabética com chave | `Desafio2` |
+| Cookies | Web Exploitation | Manipulação de cookie | `Desafio2` |
+| So Meta | Forense | Leitura de metadados EXIF | `Desafio2` |
 
 ---
 
@@ -80,7 +80,7 @@ Desafio envolvendo a linguagem esotérica **Brainfuck**. O código foi identific
 
 ---
 
-### 📁 Pasta `desafios_ctf`
+### 📁 Pasta `Desafio2`
 
 #### 🕵️ Crackme
 
@@ -90,7 +90,7 @@ Desafio de engenharia reversa com um script em Python que guardava um segredo ci
 decode_secret(bezos_cc_secret)
 ```
 
-📄 Relatório: [relatorio_crackme_gen.md](desafios_ctf/relatorio_crackme_gen.md)
+📄 Relatório: [relatorio_crackme_gen.md](Desafio2/relatorio_crackme_gen.md)
 
 ---
 
@@ -102,7 +102,7 @@ Desafio de *General Skills* em que um serviço remoto, acessado com o **netcat**
 nc <host> <porta> → ASCII Converter (dCode)
 ```
 
-📄 Relatório: [relatorio_nice_netcat.md](desafios_ctf/relatorio_nice_netcat.md)
+📄 Relatório: [relatorio_nice_netcat.md](Desafio2/relatorio_nice_netcat.md)
 
 ---
 
@@ -110,7 +110,7 @@ nc <host> <porta> → ASCII Converter (dCode)
 
 Desafio de forense com uma imagem `cat.jpg`. A análise dos **metadados** revelou, no campo de licença, um texto codificado em **Base64**, decodificado com o **dCode**.
 
-📄 Relatório: [relatorio_information.md](desafios_ctf/relatorio_information.md)
+📄 Relatório: [relatorio_information.md](Desafio2/relatorio_information.md)
 
 ---
 
@@ -118,7 +118,7 @@ Desafio de forense com uma imagem `cat.jpg`. A análise dos **metadados** revelo
 
 Desafio de criptografia com uma **cifra de substituição monoalfabética**, cuja chave estava no início do arquivo. O tipo de cifra foi identificado com o **dCode Cipher Identifier** e a mensagem foi decifrada informando a chave no decodificador.
 
-📄 Relatório: [relatorio_substitution0.md](desafios_ctf/relatorio_substitution0.md)
+📄 Relatório: [relatorio_substitution0.md](Desafio2/relatorio_substitution0.md)
 
 ---
 
@@ -126,7 +126,7 @@ Desafio de criptografia com uma **cifra de substituição monoalfabética**, cuj
 
 Desafio de *Web Exploitation* em que o conteúdo da página era controlado por um **cookie** editável pelo usuário. Com as **ferramentas do desenvolvedor**, o valor do cookie foi incrementado até o valor `18`, que exibiu a *flag*.
 
-📄 Relatório: [relatorio_cookies.md](desafios_ctf/relatorio_cookies.md)
+📄 Relatório: [relatorio_cookies.md](Desafio2/relatorio_cookies.md)
 
 ---
 
@@ -134,7 +134,7 @@ Desafio de *Web Exploitation* em que o conteúdo da página era controlado por u
 
 Desafio de forense com uma imagem PNG. Os **metadados EXIF** foram analisados em um visualizador online, e a *flag* estava em texto claro no campo **Artista**.
 
-📄 Relatório: [relatorio_so_meta.md](desafios_ctf/relatorio_so_meta.md)
+📄 Relatório: [relatorio_so_meta.md](Desafio2/relatorio_so_meta.md)
 
 ---
 
