@@ -175,5 +175,4 @@ O exercício também reforçou conceitos fundamentais de:
 ## 11. Referências
 
 * ROT13 / ROT47 – Wikipedia: https://en.wikipedia.org/wiki/ROT13
-* CyberChef: https://gchq.github.io/CyberChef/
 * Documentação da Escola de Cyber
